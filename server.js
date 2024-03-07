@@ -8,6 +8,7 @@ const app = express();
 app.use(cors({
   origin: 'http://localhost:3001'
 }));
+app.options('*', cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
