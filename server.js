@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: 'https://threein1.onrender.com/'
 }));
 app.options('*', cors());
 app.use(bodyParser.json());
