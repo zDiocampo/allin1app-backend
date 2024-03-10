@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: 'https://threein1.onrender.com'
+  origin: 'https://65edc06091843174d4d5e562--legendary-pony-b58ac1.netlify.app/'
 }));
 app.options('*', cors());
 app.use(bodyParser.json());
